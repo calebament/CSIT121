@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab2</title>
+</head>
+<body>
+    <h1>Starting Web Standards</h1>
+        <h2>Lab 1 and 2</h2>
+        <p><i>Published on 9/21/25 by Caleb Ament</i></p>
+        <p>This is my first webpage. Even though it was a little bit confusing to figure everything out, once I really understood how the code works, things started to make a lot more sense. I now understand the basics of HTML after carefully looking through the lesson and notes. Learning these basic skills will help me as we get into more complex topics of html throughout the semester. I look forward to learning more and more about how html files work and how to effectively use them to create well made sites.</p>
+        <h3>Things I Learned</h3>
+        <ol>
+            <li>How to create headings and subheadings</li>
+            <li>How to bolden or italicize the contents of the document</li>
+            <li>How to created unordered or ordered lists like the one this item is in</li>
+        </ol>
+        <p>To learn how to do these things, some of the web pages linked within the modules really helped out, especially these ones in particular:</p>
+        <ul>
+            <li><a href="https://www.w3schools.com/html/html_intro.asp">HTML Introduction</a></li>
+            <li><a href="http://web.simmons.edu/~grabiner/comm244/weekfour/document-tree.html#:~:text=Parent%20and%20Child,element%20in%20the%20document%20tree.">The HTML Document Tree</a></li>
+        </ul>
+        <p>&copy; 2025 Caleb Ament. All rights reserved.</p>    
+</body>
