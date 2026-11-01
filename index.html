@@ -2,52 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Web Standards</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
         <h1>Learning Web Standards</h1>
-        <h2>Labs 2+3</h2>
-        <p>
-            <em>Published on September 27, 2026 by Caleb Ament</em>
-        </p>
+        <h2>Labs 2, 3, & 5</h2>
+        <p><em>Published on September 27, 2026 by Caleb Ament</em></p>
     </header>
-
+    <nav>
+        <ul>
+            <li><a href="#lab02">Lab 2</a></li>
+            <li><a href="#lab03">Lab 3</a></li>
+            <li><a href="#lab05">Lab 5</a></li>
+        </ul>
+    </nav>
     <main id="main">
-        <p>
-            This is the first page I have done on my own, and even though some parts were confusing to me, there were some things I used to make it easier. I was able to figure things out through using my notes and using the example from the previous lab as a reference for what I need to set everything up. Now that I have already figured out uploading and publishing my website, the most difficult part now is setting up the large structure of each page. The notes I took and the lessons from the textbook went a long way in helping me, and having a sheet full of the HTML tags is going to help me through the semester. On top of that, being able to use previous labs is going to help me a lot in building off of them.
-        </p>
-        <p>
-            For lab 3, I definitely had to go through a little more trouble to figure out how everything from the CSS sheet is referenced, but now that I have it figured out, it immediately makes everything more visually appealing. Even if certain things such as the class selector that I went with isn't entirely necessary, its still useful to know for any future labs. Getting to finally change the font and color of everything helps me personalize the website to how I wanted it to look. Having this CSS sheet makes it so that all future labs can be consistent in their design.
-        </p>
+        <div id="blogposts">
+            <section class="blog" id="lab02">
+                <h3>Lab 2 Reflection</h3>
+                <p>This is the first page I have done on my own, and even though some parts were confusing to me, there were some things I used to make it easier. I was able to figure things out through using my notes and using the example from the previous lab as a reference for what I need to set everything up. Now that I have already figured out uploading and publishing my website, the most difficult part now is setting up the large structure of each page. The notes I took and the lessons from the textbook went a long way in helping me, and having a sheet full of the HTML tags is going to help me through the semester. On top of that, being able to use previous labs is going to help me a lot in building off of them.</p>
+            </section>
+            <section class="blog" id="lab03">
+                <h3>Lab 3 Reflection</h3>
+                <p>For lab 3, I definitely had to go through a little more trouble to figure out how everything from the CSS sheet is referenced, but now that I have it figured out, it immediately makes everything more visually appealing. Even if certain things such as the class selector that I went with isn't entirely necessary, its still useful to know for any future labs. Getting to finally change the font and color of everything helps me personalize the website more and having this CSS sheet makes it so that future labs can be consistent in their design.</p>
+            </section>
+            <section class="blog" id="lab06">
+                <h3>Lab 6 Reflection</h3>
+                <p>Lab 6 has been by far the most challenging, but now that the learning process is done, it seems less daunting than it actually felt. It took me the longest of all of them, but ended up being the greatest learning experience. One of the biggest takeaways I got from this lab was the importance of creating a responsive and well designed experience for computers, phones, and tablets of all kinds, which is one of the most important things to consider in best design practices. As well as this, it is also important to consider how the interactions with the UI influence the user's experience, such as clear visual feedback and a pleasant, understandable UI. Overall, I am glad that I was able to learn from this in a way that will help me advance in this class.</p>
+            </section>
+        </div>
         <section>
             <h3>What I Learned</h3>
-
             <ol>
                 <li>Lists are made using the li tag for elements and ul for unordered lists while ol is used for ordered lists</li>
                 <li>The DOCTYPE declaration has to be used at the beginning of every HTML document</li>
                 <li>Links within the site and links to external sites use a different way to redirect towards the site</li>
             </ol>
         </section>
-
         <section>
-            <p class="italicize">
-                Learning about tags, attributes, and elements was another part that was important, and I learned a lot from
-            </p>
-
+            <p class="italicize">Learning about tags, attributes, and elements was another part that was important, and I learned a lot from</p>
             <ul>
-                <li>
-                    <a href="https://www.youtube.com/watch?v=ewZ_YWbIWXI">this video</a>
-                </li>
-                <li>
-                    <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content">and this page</a>
-                </li>
+                <li><a href="https://www.youtube.com/watch?v=ewZ_YWbIWXI">this video</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content">and this page</a></li>
             </ul>
         </section>
     </main>
-
     <footer>
         <p>&copy; 2026 Caleb Ament. All rights reserved.</p>
     </footer>
