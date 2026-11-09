@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="lab7style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+
+    <nav>
+        <a href="tierlist.html">Tier List</a>
+        <a href="contact.html">Contact Form</a>
+    </nav>
+
+    <main>
+
+        <h2>Thoughts on my tier list?</h2>
+
+        <form action="#" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="(Please enter your name)">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="(Please enter email)">
+
+            <fieldset>
+                <legend>1. Which image looked cooler?</legend>
+
+                <label>
+                    <input type="radio" name="boss" value="Orphan of Kos">
+                    S Tier
+                </label>
+
+                <label>
+                    <input type="radio" name="boss" value="Blood-Starved Beast">
+                    A Tier
+                </label>
+
+            </fieldset>
+
+            <label for="villain">2. What country is the world of the game based on?</label>
+            <select id="villain" name="villain">
+                <option value="">Choose a country</option>
+                <option value="country1">England</option>
+                <option value="country2">France</option>
+                <option value="country3">Czech Republic</option>
+                <option value="other">Other</option>
+            </select>
+
+            <fieldset>
+                <legend>3. Which tiers are the most interesting?</legend>
+
+                <label>
+                    <input type="checkbox" name="tier" value="S">
+                    S Tier
+                </label>
+
+                <label>
+                    <input type="checkbox" name="tier" value="A">
+                    A Tier
+                </label>
+
+                <label>
+                    <input type="checkbox" name="tier" value="B">
+                    B Tier
+                </label>
+
+                <label>
+                    <input type="checkbox" name="tier" value="C">
+                    C Tier
+                </label> 
+                
+                <label>
+                    <input type="checkbox" name="tier" value="D">
+                    D Tier
+                </label>
+            </fieldset>
+
+            <label for="comment">What would you assume this game is about just based on the names and images?</label>
+            <textarea id="comment" name="comment" rows="5" placeholder="(Enter your answer here)"></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

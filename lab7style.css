@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: gothic, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2 {
+    color: white;
+}
+
+nav {
+    background-color: slategray;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+caption {
+    color: white;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+thead {
+    background-color: white;
+}
+
+img {
+    width: 110px;
+    height: auto;
+}
+
+.s-tier {
+    background-color: blue;
+}
+
+.a-tier {
+    background-color: green;
+}
+
+.b-tier {
+    background-color: yellow;
+}
+
+.c-tier {
+    background-color: orange;
+}
+
+.d-tier {
+    background-color: red;
+}
+
+section {
+    margin-top: 30px;
+}
+
+form {
+    background-color: slategray;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    margin-top: 20px;
+}
+
+fieldset label {
+    display: block;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+button {
+    background-color: #0088cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: slategray;
+}
+
+@media (max-width: 500px) {
+    body {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        padding: 8px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+}
