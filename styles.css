@@ -21,7 +21,7 @@ header {
 }
 
 .topnav {
-    background-color: #333;
+    background-color: rgb(33, 56, 56);
     overflow: hidden;
     text-align: center;
 }
