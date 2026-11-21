@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>PNG Image</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -13,11 +14,14 @@
         <h1>PNG Image</h1>
     </header>
 
-    <nav>
+    <div class="topnav" id="myTopnav">
         <a href="gif.html">GIF</a>
         <a href="jpg.html">JPG</a>
-        <a href="png.html">PNG</a>
-    </nav>
+        <a href="png.html" class="active">PNG</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
     <main>
 
@@ -56,6 +60,17 @@
     <footer>
         <p>&copy; 2026 Caleb Ament. All rights reserved.</p>
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 
 </body>
 
